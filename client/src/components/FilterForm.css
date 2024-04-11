@@ -1,0 +1,93 @@
+ .fuel-form-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .fuel-form {
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .fuel-radio-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submit-button {
+    width: 100%;
+  }
+
+  .filform {
+    background-color: red;
+    height: 500px;
+    position: static;
+  }
+
+  .filimgsize {
+    height: 50px;
+    width: 50px;
+    /* width: 100%; */
+    /* Allow image to resize while maintaining aspect ratio */
+    
+    /* Apply a margin to the right */
+    margin-right: 5px !important;
+    margin-top: 20px;
+  }
+  @media (max-width: 995px) {
+    .filimgsize {
+      /* Position the image to the right with a margin */
+      /* position: fixed;
+      right: 5px;
+      top: 50%;
+      transform: translateY(-50%); */
+      position: fixed;
+      right: 5px;
+      top: 120px; 
+    }
+  }
+
+  .ant-drawer-title {
+    margin: 0;
+    color: rgb(77, 80, 247) !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    /* line-height: px; */
+}
+
+.ant-form label {
+    font-weight: 500;
+    font-style: serif;
+    font-size: 20px !important;
+}
+
+.fuel-form .ant-btn, .ant-btn:active, .ant-btn:focus {
+    outline: 0;
+    color: rgb(1, 68, 80) !important; 
+}
+
+.btn2 {
+    box-shadow: none !important;
+    background-color: rgb(251, 242, 242) !important;
+    color: rgb(7, 1, 69) !important;
+    border: 3px solid teal !important;
+    border-radius: 10px !important;
+    padding: 5px 15px !important;
+    font-size: 20px !important;
+    height: 40px !important;
+    padding: 2px !important;
+    margin: 50px;
+    left: 9px !important;
+    width: 150px;
+} 
+
+
+  
+
+  /* @media only screen and (max-width:995px){
+    .filimgsize{
+        right: 5% !important;
+    }
+  } */
